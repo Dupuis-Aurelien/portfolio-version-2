@@ -1,0 +1,1277 @@
+    /******************** GENERAL ************************/
+    
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        width: 100%;
+        overflow-x: hidden;
+        margin: 0%;
+    }
+    /* La div avec les titres h2 et les petites icones */
+    
+    .titre {
+        margin-top: 8%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        vertical-align: middle;
+        padding-top: 3vh;
+    }
+    /* Images à coté des titres */
+    
+    .titre .Tête,
+    .titre .chapeau,
+    .titre .rouage,
+    .titre .ampoule,
+    .titre .experience,
+    .titre .palette {
+        width: 4vw;
+        height: 4vw;
+        margin-left: 2%;
+        margin-right: 2%;
+        margin-top: 1vw;
+    }
+    /* Titre h2 mais pas ceux des modals */
+    
+    .titre h2 {
+        text-align: center;
+        overflow: hidden;
+        font-size: 250%;
+        letter-spacing: 2px;
+        background: linear-gradient(to right, #222f51, #03BFCB);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    /*****************************HEADER**********************/
+    
+    header {
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+    /****** Navigation ******/
+    
+    nav {
+        margin-bottom: 6.5%;
+        overflow: hidden;
+        animation-name: descend;
+        animation-duration: 0.5s;
+        animation-delay: 2s;
+        animation-fill-mode: both;
+    }
+    
+    @keyframes descend {
+        0% {
+            -webkit-transform: translateY(-100%);
+            -moz-transform: translateY(-100%);
+            transform: translateY(-100%);
+        }
+        100% {
+            -webkit-transform: translateX(0);
+            -moz-transform: translateX(0);
+            transform: translateX(0);
+        }
+    }
+    
+    #menuInitial li,
+    #menu li {
+        display: inline-block;
+        margin-left: 2.3%;
+        margin-right: 2.3%;
+        color: #222f51;
+        justify-content: center;
+    }
+    
+    #menuInitial li a,
+    #menu li a {
+        text-decoration: none;
+        color: #222f51;
+        font-size: 100%;
+    }
+    
+    #menuInitial li a {
+        font-size: 135%;
+    }
+    
+    li a:hover {
+        color: #03BFCB;
+    }
+    
+    li a::after {
+        content: '';
+        display: block;
+        height: 2px;
+        width: 0;
+        transition: 0.3s;
+        background-color: #222f51;
+    }
+    
+    li a:hover::after {
+        width: 100%;
+        transition: 0.3s;
+    }
+    /*** Image Logo DUPUIS AURELIEN ***/
+    
+    .Logo {
+        vertical-align: middle;
+        width: auto;
+        animation: boomboom 1.4s infinite;
+        margin-bottom: 2%;
+    }
+    /* Animation Logo */
+    
+    @keyframes boomboom {
+        0% {
+            transform: scale(0.9);
+        }
+        10% {
+            transform: scale(1);
+        }
+        15% {
+            transform: scale(0.9);
+        }
+        20% {
+            transform: scale(1);
+        }
+        25% {
+            transform: scale(0.9);
+        }
+        100% {
+            transform: scale(0.9);
+        }
+    }
+    /****** Menu de droite fixed **********/
+    /* Visuel de base */
+    
+    .TéléchargerHeader,
+    .TelHeader,
+    .MailHeader,
+    .AdresseHeader {
+        width: 55%;
+        right: -52vw;
+        text-align: start;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        z-index: 11001;
+        /*background-color: white;*/
+        transition: ease-in;
+        transition-duration: 0.5s;
+    }
+    /*** HOVER ***/
+    /* CV en PDF */
+    
+    .TéléchargerHeader:hover {
+        right: -38vw;
+        transition: ease-in;
+        transition-duration: 0.8s;
+    }
+    /* Numéro de téléphone */
+    
+    .TelHeader:hover {
+        right: -40vw;
+        transition: ease-in;
+        transition-duration: 0.8s;
+    }
+    /* Mon adresse email */
+    
+    .MailHeader:hover {
+        right: -32vw;
+        transition: ease-in;
+        transition-duration: 1.3s;
+    }
+    /* Mon adresse postale */
+    
+    .AdresseHeader:hover {
+        right: -35vw;
+        transition: ease-in;
+        transition-duration: 1.3s;
+    }
+    /* IMAGE */
+    
+    .TéléchargerHeader img {
+        width: 60px;
+        height: 60px;
+        text-align: start;
+        margin-left: -5%;
+    }
+    
+    .TelHeader img,
+    .MailHeader img,
+    .AdresseHeader img {
+        width: 50px;
+        height: 50px;
+        text-align: start;
+        margin-left: 4px;
+    }
+    /* SEPARATEUR */
+    
+    .hrblanc {
+        color: white;
+        margin-left: 3%;
+    }
+    /* Positionnement */
+    
+    .TéléchargerHeader {
+        margin-top: -6%;
+    }
+    
+    .TelHeader {
+        margin-top: 0%;
+    }
+    
+    .MailHeader {
+        margin-top: 6%;
+    }
+    
+    .AdresseHeader {
+        margin-top: 12%;
+    }
+    /* ECRITURE */
+    
+    .TéléchargerHeader a,
+    .TelHeader a,
+    .MailHeader a,
+    .AdresseHeader p {
+        text-decoration: none;
+        color: #222f51;
+        font-size: 140%;
+    }
+    
+    .ecriture {
+        padding: 2%;
+        padding-top: 2%;
+        background-color: #03BFCB;
+        border-radius: 10px;
+        margin-left: 3%;
+    }
+    
+    .AdresseHeader .ecriture {
+        margin-top: -2%;
+    }
+    /****** Menu Hamburger ******/
+    /* Affichage de base */
+    
+    #menuDéroulant {
+        position: relative;
+        top: 50px;
+        left: 50px;
+        display: none;
+    }
+    /* Mon logo Dupuis Aurélien */
+    
+    #menuDéroulant img {
+        position: relative;
+        top: -60px;
+        width: 35%;
+    }
+    /* Texte du menu */
+    
+    #menuDéroulant a {
+        text-decoration: none;
+        color: #232323;
+    }
+    /* Texte du menu avec souris dessus */
+    
+    #menuDéroulant a:hover {
+        text-decoration-line: underline;
+    }
+    /* Dimension de la zone cliquable pour le hamburger */
+    
+    #menuDéroulant label {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -20px;
+        left: -5px;
+    }
+    
+    #menuDéroulant input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+    }
+    /* Visuel du hamburger */
+    
+    #menuDéroulant span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: #222f51;
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), background 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0), opacity 0.55s ease;
+    }
+    /* Transformation des spans */
+    
+    #menuDéroulant span:first-child {
+        transform-origin: 0% 0%;
+    }
+    
+    #menuDéroulant span:nth-last-child(3) {
+        transform-origin: 0% 100%;
+    }
+    
+    #menuDéroulant input:checked~span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: #232323;
+    }
+    
+    #menuDéroulant input:checked~span:nth-last-child(4) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+    }
+    
+    #menuDéroulant input:checked~span:nth-last-child(3) {
+        transform: rotate(-45deg) translate(0, -1px);
+    }
+    /* Menu arrivant du hamburger */
+    
+    #menu {
+        width: 300px;
+        height: 240px;
+        margin: -50px 0 0 -50px;
+        padding: 10px;
+        background: #03BFCB;
+        transform-origin: 0% 0%;
+        transform: translate(-105%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1);
+    }
+    /* Dimension du menu */
+    
+    #menu li {
+        padding: 10px 10px;
+        font-size: 18px;
+    }
+    /* Permet de pouvoir cliquer sur le hamburger */
+    
+    #menuDéroulant input:checked~ul {
+        transform: none;
+    }
+    /************************HEADER_IMAGE**********************/
+    /* modifier la margin top ? avec et sans le clique sur le hamburger à partir de 768 px */
+    /* div avec les 2 ombres et ma photo */
+    
+    header .photo_de_moi {
+        margin-top: 10%;
+    }
+    /* Ombre Montdidier */
+    
+    header .Montdidier {
+        height: auto;
+        width: 15vw;
+        top: 0px;
+        right: 0px;
+        z-index: -40;
+        animation: verslagauche 3s 1;
+    }
+    
+    @keyframes verslagauche {
+        0% {
+            opacity: 0;
+            transform: translateX(50%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+    /* Ma photo */
+    
+    header .Moi {
+        height: auto;
+        width: 15vw;
+        margin-bottom: 0.2%;
+        margin-left: -3%;
+        margin-right: -3%;
+        animation-name: Apparition1;
+        animation-duration: 6s;
+    }
+    
+    @keyframes Apparition1 {
+        0% {
+            opacity: 0%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    /* Ombre Fréjus */
+    
+    header .Fréjus {
+        height: auto;
+        width: 15vw;
+        top: 0px;
+        right: 0px;
+        z-index: -13;
+        animation: versladroite 3.5s 1;
+    }
+    
+    @keyframes versladroite {
+        0% {
+            opacity: 0;
+            transform: translateX(-50%);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0%);
+        }
+    }
+    /***********************HEADER_Métier*********************/
+    
+    header .Métier {
+        width: 55%;
+        height: auto;
+        background-color: #222f51;
+        margin: auto;
+        text-align: center;
+        vertical-align: middle;
+        color: white;
+        margin-top: -2.7%;
+        z-index: 0;
+        position: relative;
+    }
+    
+    h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        z-index: 330;
+        position: relative;
+    }
+    /*********************QUI_suis-je ?**********************/
+    
+    #présentation {
+        color: #222f51;
+        margin: 5%;
+    }
+    /*** Titre ***/
+    /**** block qui ***/
+    
+    .qui {
+        text-align: justify;
+        display: flex;
+        flex-direction: row;
+    }
+    /* Texte de présentation */
+    
+    .GaucheQui {
+        width: 55%;
+        margin-right: 5%;
+        padding: 3%;
+    }
+    /* Les raisons de me choisir */
+    
+    .DroiteRaisons {
+        width: 30%;
+        overflow: hidden;
+    }
+    /*************4 Bonnes raisons de me choisir************/
+    
+    .DroiteRaisons h3 {
+        margin: auto;
+        text-align: center;
+        padding: 2%;
+    }
+    
+    .raisons2 {
+        list-style-type: none;
+        padding: 3% 0%;
+        color: #2d6a9e;
+        animation: déroulement 6s infinite linear;
+        text-align: center;
+    }
+    
+    .raisons2 li {
+        padding-top: 3%;
+        font-size: 130%;
+    }
+    
+    @keyframes déroulement {
+        from {
+            opacity: 0;
+        }
+        50% {
+            opacity: 0.8;
+        }
+        to {
+            opacity: 1;
+        }
+    }
+    /* derrière */
+    
+    .qualités {
+        box-shadow: 2px 2px 20px darkgray;
+        -webkit-box-shadow: 2px 2px 20px darkgray;
+        font-size: 120%;
+        background: linear-gradient( to right, #222f51, #03BFCB, #555, #fff, #fff, #555, #03BFCB, #222f51) no-repeat top, linear-gradient( to right, #222f51, #03BFCB, #555, #fff, #fff, #555, #03BFCB, #222f51) no-repeat bottom white;
+        background-size: 100% 10px;
+        padding: 2%;
+    }
+    /*********************A propos (voir CSS MODAL1)***********************/
+    /****************** FORMATIONS **********************/
+    /*** TITRE ***/
+    /****** block1 ******/
+    
+    .block1 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+    /*** Les 4 blocks ***/
+    
+    .DevWeb,
+    .MNS,
+    .EPS,
+    .BAC {
+        border: #03BFCB dotted 2px;
+        width: 16%;
+        margin: 2%;
+        padding: 2%;
+        padding-top: 1%;
+    }
+    /*** Images ***/
+    
+    .block1 .image {
+        background-size: cover;
+        height: 280px;
+        max-width: 100%;
+    }
+    
+    .DevWeb .image {
+        background-image: url(../image/formations/ChateauFréjus.jpg);
+    }
+    
+    .MNS .image {
+        background-image: url(../image/formations/FormationSud.jpg);
+    }
+    
+    .EPS .image {
+        background-image: url(../image/formations/JulesVerne.jpg);
+    }
+    
+    .BAC .image {
+        background-image: url(../image/formations/LycéeMontdidier.jpg);
+    }
+    /*** Rectangle gris et Année ***/
+    
+    .DevWeb .image .année,
+    .MNS .image .année,
+    .EPS .image .année,
+    .BAC .image .année {
+        background-color: rgb(128, 128, 128);
+        width: 80px;
+        height: 50px;
+    }
+    
+    .DevWeb .image .année p,
+    .MNS .image .année p,
+    .EPS .image .année p,
+    .BAC .image .année p {
+        padding-top: 20%;
+        text-align: center;
+    }
+    /*** VIE (voir MODAL2) ***/
+    /*-VFW_Dl8]NVz*Y4H*/
+    /************************ COMPETENCES ************************/
+    
+    #compétences {
+        margin: 5%;
+    }
+    /* T_H = Techniques et Humaines */
+    
+    .T_H {
+        display: flex;
+        flex-direction: row;
+    }
+    /* Techniques */
+    
+    .Techniques {
+        text-align: center;
+        width: 50%;
+    }
+    /* IMAGES */
+    
+    .Techniques .Information {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .Techniques .Responsive {
+        width: 300px;
+        height: 200px;
+        margin-top: 00px;
+    }
+    
+    .Techniques .Maquette {
+        width: 300px;
+        height: 200px;
+        position: relative;
+    }
+    
+    .Techniques .Promouvoir {
+        width: 250px;
+        height: 200px;
+    }
+    /* Humaines */
+    
+    .Humaines {
+        text-align: center;
+        width: 50%;
+    }
+    /* IMAGES */
+    
+    .Humaines .Réunion {
+        width: 250px;
+        height: 250px;
+    }
+    
+    .Humaines .Public {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .Humaines .Equipe {
+        width: 350px;
+        height: 350px;
+    }
+    /************************ CONNAISSANCES ************************/
+    /************************ EXPERIENCES / REALISATION ************************/
+    /*** TITRE ***/
+    /*** TEXTE ***/
+    
+    #EXPERIENCES {
+        text-align: center;
+        margin: 5%;
+    }
+    
+    #EXPERIENCES li {
+        margin-top: 5%;
+    }
+    
+    #EXPERIENCES p {
+        text-align: center;
+        color: #2d6a9e;
+        margin: auto;
+        margin-bottom: 2%;
+        margin-top: 1%;
+    }
+    /*** BLOCK3 ***/
+    
+    .block3 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 2% 0%;
+    }
+    
+    .block3 a {
+        min-height: 50px;
+        display: inline-block;
+    }
+    
+    .block3 figure {
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    /* Gray Scale */
+    
+    .block3 figure img {
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+    
+    .block3 figure:hover img {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    
+    .block3 strong {
+        font-size: large;
+    }
+    /*** JEUX VIDEO ***/
+    
+    .JeuxVidéo {
+        width: 30%;
+        margin-bottom: 3%;
+    }
+    
+    .JeuxVidéo img {
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 10px rgb(117, 112, 112);
+    }
+    
+    .JeuxVidéo div,
+    .Judo div,
+    .BienfaitsDuSport div {
+        margin: 2% 0%;
+    }
+    /*** JUDO ***/
+    
+    .Judo {
+        width: 30%;
+        margin-left: 2%;
+        margin-right: 2%;
+        overflow-y: hidden;
+    }
+    
+    .Judo img {
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 10px rgb(117, 112, 112);
+    }
+    /*** BIENFAITS DU SPORT ***/
+    
+    .BienfaitsDuSport {
+        width: 30%;
+    }
+    
+    .BienfaitsDuSport img {
+        width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 10px rgb(117, 112, 112);
+    }
+    /*** BOUTON ***/
+    
+    #contact .contacter {
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        margin-bottom: 2%;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        padding: 1%;
+        font-size: small;
+        border-radius: 15px;
+        background-color: #03BFCB;
+    }
+    
+    #contact .contacter:hover {
+        background-color: #222f51;
+    }
+    
+    #contact .contacter:hover a {
+        color: white;
+    }
+    
+    #contact .contacter a {
+        text-decoration: none;
+        color: #222f51;
+        font-size: large;
+    }
+    
+    #contact .contacter a:hover {
+        color: #03BFCB;
+    }
+    
+    #contact .sms {
+        display: none;
+    }
+    /************************ FOOTER ************************/
+    
+    footer {
+        background-color: #222f51;
+        color: white;
+        padding: 2% 3% 0%;
+    }
+    /********* BLOCK4 *********/
+    
+    .block4 {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    /****** block4a ******/
+    
+    .block4a {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 55%;
+    }
+    /*** Colone 1 ***/
+    
+    .information {
+        width: 35%;
+    }
+    
+    .colone1 p,
+    .colone3 {
+        font-weight: bold;
+    }
+    /*** Colone 2 ***/
+    
+    .contact {
+        width: 65%;
+        margin-top: 2%;
+    }
+    
+    .contact .adresse {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 10px;
+    }
+    
+    .contact .adresse img {
+        width: 4%;
+        height: 4%;
+        margin-right: 3%;
+    }
+    
+    .contact .téléphone {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 1% 0%;
+    }
+    
+    .adresse a,
+    .téléphone a,
+    .mail a {
+        text-decoration: none;
+        color: white;
+        min-height: 48px;
+    }
+    
+    .adresse a:hover,
+    .téléphone a:hover,
+    .mail a:hover {
+        color: #03BFCB;
+    }
+    
+    .contact .téléphone img {
+        width: 4%;
+        height: 4%;
+        margin-right: 3%;
+    }
+    
+    .contact .mail {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    .contact .mail img {
+        width: 4%;
+        height: 4%;
+        margin-right: 3%;
+    }
+    
+    address {
+        margin-left: 20%;
+    }
+    
+    address img {
+        min-width: 30px;
+        min-height: 30px;
+    }
+    /****** Block4b ******/
+    
+    .block4b {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 45%;
+    }
+    /*** Colone 3 ***/
+    
+    .CV {
+        width: 50%;
+        margin-left: 0%;
+    }
+    
+    .CV .documents .word {
+        width: auto;
+        height: 50px;
+        margin-right: 2vw;
+    }
+    
+    .CV .documents .pdf {
+        width: auto;
+        height: 50px;
+    }
+    
+    .documents a {
+        min-height: 50px;
+        display: inline-block;
+    }
+    /*** Colone 4 ***/
+    
+    .RESEAUX {
+        width: 50%;
+    }
+    
+    .RESEAUX .sociaux {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .RESEAUX .sociaux .github,
+    .RESEAUX .sociaux .linkedIn {
+        width: auto;
+        height: 50px;
+    }
+    
+    .RESEAUX .sociaux .image1 {
+        margin-right: 15%;
+    }
+    
+    .RESEAUX .sociaux .github:hover,
+    .RESEAUX .sociaux .linkedIn:hover {
+        width: auto;
+        height: 60px;
+    }
+    /*** Copyright et droit ***/
+    
+    .C_et_D {
+        margin-left: 1%;
+    }
+    
+    .C_et_D p {
+        margin-bottom: 0%;
+        padding-bottom: 1%;
+    }
+    
+    .flex {
+        display: flex;
+    }
+    
+    .moitier {
+        width: 50%
+    }
+    
+    .center {
+        text-align: center;
+    }
+    
+    .bold {
+        font-weight: bold;
+    }
+    
+    .p-top-2 {
+        padding-top: 2%;
+    }
+    
+    .liste-1,
+    .liste-2,
+    .liste-3,
+    .liste-4,
+    .liste-5,
+    .liste-6,
+    .liste-7,
+    .liste-8,
+    .liste-9 {
+        position: relative;
+        left: 60%;
+        padding: 0;
+        opacity: 0;
+        transition: all 1.5s ease;
+        list-style: inside;
+        margin: 1% 0%;
+        font-size: 120%;
+    }
+    
+    .block-connaissance .logos {
+        margin-bottom: 1%;
+    }
+    
+    .listes {
+        display: none;
+    }
+    /* 
+    *
+    *
+    **************** MODAL 1 
+    *
+    *
+    */
+    /************ A PROPOS ************/
+    /* Bouton pour ouvrir le modal*/
+    
+    .ouverture {
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 30%;
+        padding: 1%;
+        font-size: x-large;
+        color: #222f51;
+        border: #03BFCB 2px solid;
+        border-radius: 15px;
+        margin-top: 5%;
+    }
+    
+    .ouverture:hover {
+        background-color: #03BFCB;
+        color: white;
+    }
+    /* Pour bien ce positionner en fonction de élément flottant */
+    
+    .cf:before,
+    .cf:after {
+        content: "";
+    }
+    
+    .cf:after {
+        clear: both;
+        display: flex;
+    }
+    /* Permet de cacher le modal avec opacity: 0 */
+    
+    .oModal {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        /* ease-in = Lent sur le début et accélère de plus en plus vers la fin. */
+    }
+    /* Pour faire venir le Modal */
+    
+    .oModal:target {
+        opacity: 1;
+        pointer-events: auto;
+        /* Permet de pointer avec la souris */
+    }
+    /* Façon dont le modal arrive */
+    
+    .oModal:target>div {
+        margin: 10% auto;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal */
+    
+    .oModal>div {
+        max-width: 900px;
+        position: relative;
+        margin: 1% auto;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow: 2px 2px 20px black;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal header */
+    
+    .oModal header {
+        border-bottom: 1px solid #222f51;
+        border-radius: 5px 5px 0 0;
+        background: #03BFCB;
+    }
+    
+    .oModal h2 {
+        font-size: 150%;
+        padding-top: 2%;
+    }
+    
+    .croix {
+        float: right;
+        text-decoration: none;
+        color: black;
+        font-size: 150%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    /* Modal section */
+    
+    .oModal section {
+        padding: 5%;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .colone1et2,
+    .colone3et4 {
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        margin: auto;
+    }
+    
+    .colone2 {
+        margin-left: 5%;
+        line-height: 150%;
+    }
+    
+    .colone4 {
+        margin-left: 5%;
+        line-height: 150%;
+        margin-right: 2vw;
+    }
+    /* Modal Footer */
+    
+    .btn {
+        text-decoration: none;
+        color: white;
+        margin-left: 48%;
+    }
+    
+    .oModal footer {
+        padding: 15px;
+        border-radius: 0 0 5px 5px;
+    }
+    /* 
+    *
+    *
+    **************** MODAL 2 
+    *
+    *
+    */
+    /************ FORMATIONS ************/
+    
+    #formations {
+        margin: 5%;
+    }
+    /* Bouton pour ouvrir le modal*/
+    
+    .ouverture2 {
+        text-align: center;
+        text-decoration: none;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        width: 20%;
+        padding: 1%;
+        font-size: large;
+        color: #222f51;
+        border: #03BFCB 2px solid;
+        border-radius: 15px;
+    }
+    
+    .ouverture2:hover {
+        background-color: #03BFCB;
+        color: white;
+    }
+    /* Pour bien ce positionner en fonction de élément flottant */
+    
+    .cf2:before,
+    .cf2:after {
+        content: "";
+    }
+    
+    .cf2:after {
+        clear: both;
+        display: flex;
+    }
+    /* Permet de cacher le modal avec opacity: 0 */
+    
+    .oModal2 {
+        position: fixed;
+        z-index: 999;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(255, 255, 255, 0.8);
+        opacity: 0;
+        -webkit-transition: opacity 400ms ease-in;
+        -moz-transition: opacity 400ms ease-in;
+        transition: opacity 400ms ease-in;
+        pointer-events: none;
+        /* ease-in = Lent sur le début et accélère de plus en plus vers la fin. */
+    }
+    /* Pour faire venir le Modal */
+    
+    .oModal2:target {
+        opacity: 1;
+        pointer-events: auto;
+        /* Permet de pointer avec la souris */
+    }
+    /* Façon dont le modal arrive */
+    
+    .oModal2:target>div {
+        margin: 1% auto;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal */
+    
+    .oModal2>div {
+        max-width: 900px;
+        position: relative;
+        margin: 1% auto;
+        border-radius: 5px;
+        background: rgb(255, 255, 255);
+        box-shadow: 2px 2px 20px black;
+        transition: all 0.4s ease-in-out;
+        -moz-transition: all 0.4s ease-in-out;
+        -webkit-transition: all 0.4s ease-in-out;
+        /* ease-in-out = départ et fin lent */
+    }
+    /* Modal header */
+    
+    .oModal2 header {
+        border-bottom: 1px solid #222f51;
+        border-radius: 5px 5px 0 0;
+        background: #03BFCB;
+    }
+    
+    .oModal2 h2 {
+        font-size: 150%;
+        padding-top: 1%;
+    }
+    
+    .croix2 {
+        float: right;
+        text-decoration: none;
+        color: black;
+        font-size: 150%;
+        padding-top: 2%;
+        padding-right: 2%;
+    }
+    /* Modal section */
+    
+    .oModal2 section {
+        padding: 3%;
+    }
+    /* Modal Footer */
+    
+    .btn2 {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .oModal2 footer {
+        padding: 15px;
+        border-radius: 0 0 5px 5px;
+    }

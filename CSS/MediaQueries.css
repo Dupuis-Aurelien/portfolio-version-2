@@ -1,0 +1,620 @@
+    /*** <320 - <479 - <768 - <899 - <1024 - <1149 - <1280 - <1500 - < 1850 ***/
+    /* <1850 */
+    
+    @media screen and (max-width: 1850px) {
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -51vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -35vw;
+        }
+        .TelHeader:hover {
+            right: -37vw;
+        }
+        .MailHeader:hover {
+            right: -27vw;
+        }
+        .AdresseHeader:hover {
+            right: -30vw;
+        }
+    }
+    /* <1500 */
+    
+    @media screen and (max-width: 1500px) {
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -50vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -32vw;
+        }
+        .TelHeader:hover {
+            right: -35vw;
+        }
+        .MailHeader:hover {
+            right: -23vw;
+        }
+        .AdresseHeader:hover {
+            right: -27vw;
+        }
+        .titre .Tête,
+        .titre .chapeau,
+        .titre .rouage,
+        .titre .ampoule,
+        .titre .experience,
+        .titre .palette {
+            margin-top: 2vw;
+        }
+    }
+    /* <1280 */
+    
+    @media screen and (max-width: 1280px) {
+        li {
+            font-size: 80%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -49vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -30vw;
+        }
+        .TelHeader:hover {
+            right: -33vw;
+        }
+        .MailHeader:hover {
+            right: -19vw;
+        }
+        .AdresseHeader:hover {
+            right: -24vw;
+        }
+        .TéléchargerHeader {
+            margin-top: 2%;
+        }
+        .TelHeader {
+            margin-top: 10%;
+        }
+        .MailHeader {
+            margin-top: 18%;
+        }
+        .AdresseHeader {
+            margin-top: 26%;
+        }
+        .ouverture {
+            margin-top: 0%;
+        }
+        .DevWeb,
+        .MNS,
+        .EPS,
+        .BAC {
+            width: 32%;
+        }
+        .titre .Tête,
+        .titre .chapeau,
+        .titre .rouage,
+        .titre .ampoule,
+        .titre .experience,
+        .titre .palette {
+            margin-top: 3vw;
+        }
+    }
+    /* <1149 */
+    
+    @media screen and (max-width: 1149px) {
+        li {
+            font-size: 80%;
+            margin-left: 2%;
+            margin-right: 2%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -49vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -27vw;
+        }
+        .TelHeader:hover {
+            right: -31vw;
+        }
+        .MailHeader:hover {
+            right: -15vw;
+        }
+        .AdresseHeader:hover {
+            right: -20vw;
+        }
+        .TéléchargerHeader {
+            margin-top: 2%;
+        }
+        .TelHeader {
+            margin-top: 10%;
+        }
+        .MailHeader {
+            margin-top: 18%;
+        }
+        .AdresseHeader {
+            margin-top: 26%;
+        }
+        header .Métier {
+            margin-top: -3%;
+            width: 70%;
+        }
+        footer {
+            padding: 1% 0.8% 0%;
+        }
+        .Langages,
+        .outils {
+            margin-top: 6%;
+        }
+    }
+    /* <1024 */
+    
+    @media screen and (max-width: 1024px) {
+        li {
+            font-size: 60%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -49vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -24vw;
+        }
+        .TelHeader:hover {
+            right: -28vw;
+        }
+        .MailHeader:hover {
+            right: -10vw;
+        }
+        .AdresseHeader:hover {
+            right: -16vw;
+        }
+        .TéléchargerHeader {
+            margin-top: 2%;
+        }
+        .TelHeader {
+            margin-top: 11%;
+        }
+        .MailHeader {
+            margin-top: 20%;
+        }
+        .AdresseHeader {
+            margin-top: 29%;
+        }
+        #auto_text {
+            font-size: 170%;
+        }
+        #qui {
+            color: #222f51;
+            margin-left: 5%;
+            margin-right: 10%;
+            font-size: 55%;
+        }
+        .DroiteRaisons {
+            margin-left: 5%;
+        }
+        .oModal:target>div {
+            margin: 10% 6vw;
+        }
+        /* Devant */
+        .raisons {
+            height: 260px;
+            font-size: 120%;
+        }
+        .oModal section {
+            flex-direction: column;
+        }
+        .colone1et2,
+        .colone3et4 {
+            width: 100%;
+            margin-left: 2vw;
+        }
+        footer {
+            padding: 1% 0% 0%;
+        }
+        /*** BLOCK4 ***/
+        .block4a {
+            width: 70%;
+        }
+        .block4b {
+            width: 30%;
+            flex-direction: column;
+        }
+        .CV,
+        .RESEAUX {
+            width: 100%;
+        }
+        .Langages img {
+            height: 6vw;
+        }
+        .outils img {
+            height: 3vw;
+        }
+    }
+    /* <899 */
+    
+    @media screen and (max-width: 899px) {
+        .titre img {
+            display: none;
+        }
+        li {
+            font-size: 60%;
+            margin-left: 2%;
+            margin-right: 1.5%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            right: -48vw;
+        }
+        .TéléchargerHeader:hover {
+            right: -19vw;
+        }
+        .TelHeader:hover {
+            right: -24vw;
+        }
+        .MailHeader:hover {
+            right: -3vw;
+        }
+        .AdresseHeader:hover {
+            right: -9vw;
+        }
+        .TéléchargerHeader {
+            margin-top: 2%;
+        }
+        .TelHeader {
+            margin-top: 11%;
+        }
+        .MailHeader {
+            margin-top: 20%;
+        }
+        .AdresseHeader {
+            margin-top: 29%;
+        }
+        header .Métier {
+            margin-top: -3.3%;
+            width: 85%;
+        }
+        #auto_text {
+            font-size: 150%;
+        }
+        #qui {
+            font-size: 75%;
+        }
+        .ouverture {
+            width: 50%;
+        }
+        .block2 {
+            flex-direction: column;
+        }
+        .block3 {
+            flex-direction: column;
+        }
+        .JeuxVidéo,
+        .Judo,
+        .BienfaitsDuSport {
+            width: 100%;
+            margin: auto;
+            margin-bottom: 7%;
+        }
+        .Langages,
+        .outils {
+            margin-top: 8%;
+        }
+    }
+    /* <768 */
+    
+    @media screen and (max-width: 768px) {
+        header .Moi,
+        header .Montdidier,
+        header .Fréjus {
+            width: 20vw;
+            margin-bottom: 0%;
+        }
+        .titre {
+            margin-top: 13%;
+            padding-top: 1.5vh;
+        }
+        #menuDéroulant {
+            display: block;
+        }
+        .Logo {
+            display: none;
+        }
+        #menuInitial {
+            display: none;
+        }
+        #menu {
+            height: 260px;
+            display: contents;
+            display: grid;
+            padding-bottom: 20px;
+        }
+        li img {
+            width: 170%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            display: none;
+        }
+        header .photo_de_moi {
+            margin-top: -30%;
+        }
+        header .Métier {
+            width: 90%;
+            margin-top: -4.2%;
+            height: auto;
+            z-index: -1;
+        }
+        #auto_text {
+            font-size: 130%;
+        }
+        .qui {
+            flex-direction: column;
+            font-size: 100%;
+            margin-right: 5%;
+        }
+        /* Texte de présentation */
+        .GaucheQui {
+            width: 100%;
+            margin-right: 5%;
+        }
+        /* Les raisons de me choisir */
+        .DroiteRaisons {
+            width: 60%;
+            margin: auto;
+        }
+        .qualités {
+            margin-top: 5%;
+        }
+        /* Devant */
+        .raisons {
+            height: 200px;
+        }
+        .raisons h2 {
+            font-size: 100%;
+        }
+        .raisons p {
+            font-size: 50%;
+            float: none;
+        }
+        .BasQualités {
+            display: block;
+        }
+        .BasQualités .sous-titre {
+            background-color: #03BFCB;
+        }
+        .T_H {
+            flex-direction: column;
+            margin-left: 30%;
+        }
+        .Langages img {
+            height: 7vw;
+        }
+        .outils img {
+            height: 4vw;
+        }
+        .block4 {
+            flex-direction: column;
+        }
+        .block4a {
+            flex-direction: column;
+            text-align: center;
+            width: 85%;
+        }
+        .information {
+            width: 100%;
+        }
+        .ouverture2 {
+            display: none;
+        }
+        .contact {
+            width: 100%;
+        }
+        #R_et_P .contacter {
+            width: 30%;
+        }
+        .block4b {
+            flex-direction: row;
+            width: 100%;
+        }
+        .CV,
+        .RESEAUX {
+            width: 50%;
+        }
+        #contact .sms {
+            display: block;
+        }
+        .Langages,
+        .outils {
+            margin-top: 10%;
+        }
+        .liste-1,
+        .liste-2,
+        .liste-3,
+        .liste-4,
+        .liste-5,
+        .liste-6,
+        .liste-7,
+        .liste-8,
+        .liste-9 {
+            display: none;
+        }
+        .listes {
+            display: block;
+            font-size: 100%;
+            margin: 2% 0%;
+        }
+    }
+    /* <479 */
+    
+    @media screen and (max-width: 479px) {
+        header .Moi,
+        header .Montdidier,
+        header .Fréjus {
+            width: 25vw;
+        }
+        .titre {
+            margin-top: 15%;
+        }
+        #menuDéroulant {
+            display: block;
+        }
+        #menuInitial {
+            display: none;
+        }
+        li img {
+            width: 150%;
+        }
+        .titre h2 {
+            font-size: 200%;
+        }
+        /****** Menu de droite ******/
+        .TéléchargerHeader,
+        .TelHeader,
+        .MailHeader,
+        .AdresseHeader {
+            display: none;
+        }
+        header .Métier {
+            width: 100%;
+            margin-top: -6%;
+            height: auto;
+        }
+        header .photo_de_moi {
+            margin-top: -60%;
+        }
+        #auto_text {
+            font-size: 120%;
+        }
+        #menu {
+            width: 200px;
+            height: 240px;
+            padding: 20px;
+        }
+        #menu li {
+            padding: 10px 0;
+            font-size: 15px;
+        }
+        .qui {
+            font-size: 90%;
+        }
+        .qualités {
+            width: 100%;
+        }
+        .raisons h2 {
+            font-size: 80%;
+        }
+        .raisons p {
+            font-size: 50%;
+        }
+        .ouverture {
+            width: 48%;
+            font-size: large;
+        }
+        .block1 {
+            flex-direction: column;
+        }
+        .DevWeb,
+        .MNS,
+        .EPS,
+        .BAC {
+            width: 90%;
+        }
+        .block4a {
+            margin-left: 10%;
+            margin-right: 3%;
+        }
+        .contact {
+            width: 90%;
+            font-size: 80%;
+        }
+        #R_et_P .contacter {
+            width: 50%;
+        }
+        #R_et_P .contacter a {
+            font-size: medium;
+        }
+        .block4 h4 {
+            font-size: 70%;
+        }
+        address {
+            margin-left: 1%;
+        }
+        .test78 a {
+            padding: 2%;
+        }
+        .Langages img {
+            height: 10vw;
+        }
+        .outils img {
+            height: 6vw;
+        }
+        .Langages,
+        .outils {
+            margin-top: 14%;
+        }
+    }
+    /* <320 */
+    
+    @media screen and (max-width: 320px) {
+        #menuDéroulant img {
+            width: 50%;
+            top: -50px;
+        }
+        header .Montdidier,
+        header .Fréjus {
+            display: none;
+        }
+        header .Moi {
+            width: 143px;
+            height: 226px;
+            margin-bottom: -1%;
+        }
+        .titre {
+            margin-top: 25%;
+        }
+        .titre h2 {
+            font-size: 150%;
+        }
+        .DroiteRaisons {
+            width: 85%;
+        }
+        .raisons h2 {
+            font-size: 80%;
+        }
+        .raisons p {
+            font-size: 40%;
+            margin-top: -20%;
+        }
+        .information {
+            margin-left: 5%;
+        }
+        #R_et_P .contacter {
+            width: 60%;
+        }
+        .Langages img {
+            height: 11vw;
+        }
+        .outils img {
+            height: 7vw;
+        }
+    }
