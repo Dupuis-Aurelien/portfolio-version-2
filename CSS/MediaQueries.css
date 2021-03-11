@@ -91,12 +91,6 @@
         .ouverture {
             margin-top: 0%;
         }
-        .DevWeb,
-        .MNS,
-        .EPS,
-        .BAC {
-            width: 32%;
-        }
         .titre .Tête,
         .titre .chapeau,
         .titre .rouage,
@@ -151,10 +145,6 @@
         }
         footer {
             padding: 1% 0.8% 0%;
-        }
-        .Langages,
-        .outils {
-            margin-top: 6%;
         }
     }
     /* <1024 */
@@ -237,12 +227,6 @@
         .RESEAUX {
             width: 100%;
         }
-        .Langages img {
-            height: 6vw;
-        }
-        .outils img {
-            height: 3vw;
-        }
     }
     /* <899 */
     
@@ -304,17 +288,6 @@
         }
         .block3 {
             flex-direction: column;
-        }
-        .JeuxVidéo,
-        .Judo,
-        .BienfaitsDuSport {
-            width: 100%;
-            margin: auto;
-            margin-bottom: 7%;
-        }
-        .Langages,
-        .outils {
-            margin-top: 8%;
         }
     }
     /* <768 */
@@ -402,16 +375,6 @@
         .BasQualités .sous-titre {
             background-color: #03BFCB;
         }
-        .T_H {
-            flex-direction: column;
-            margin-left: 30%;
-        }
-        .Langages img {
-            height: 7vw;
-        }
-        .outils img {
-            height: 4vw;
-        }
         .block4 {
             flex-direction: column;
         }
@@ -429,9 +392,6 @@
         .contact {
             width: 100%;
         }
-        #R_et_P .contacter {
-            width: 30%;
-        }
         .block4b {
             flex-direction: row;
             width: 100%;
@@ -442,26 +402,6 @@
         }
         #contact .sms {
             display: block;
-        }
-        .Langages,
-        .outils {
-            margin-top: 10%;
-        }
-        .liste-1,
-        .liste-2,
-        .liste-3,
-        .liste-4,
-        .liste-5,
-        .liste-6,
-        .liste-7,
-        .liste-8,
-        .liste-9 {
-            display: none;
-        }
-        .listes {
-            display: block;
-            font-size: 100%;
-            margin: 2% 0%;
         }
     }
     /* <479 */
@@ -533,12 +473,6 @@
         .block1 {
             flex-direction: column;
         }
-        .DevWeb,
-        .MNS,
-        .EPS,
-        .BAC {
-            width: 90%;
-        }
         .block4a {
             margin-left: 10%;
             margin-right: 3%;
@@ -547,30 +481,11 @@
             width: 90%;
             font-size: 80%;
         }
-        #R_et_P .contacter {
-            width: 50%;
-        }
-        #R_et_P .contacter a {
-            font-size: medium;
-        }
         .block4 h4 {
             font-size: 70%;
         }
         address {
             margin-left: 1%;
-        }
-        .test78 a {
-            padding: 2%;
-        }
-        .Langages img {
-            height: 10vw;
-        }
-        .outils img {
-            height: 6vw;
-        }
-        .Langages,
-        .outils {
-            margin-top: 14%;
         }
     }
     /* <320 */
@@ -607,14 +522,5 @@
         }
         .information {
             margin-left: 5%;
-        }
-        #R_et_P .contacter {
-            width: 60%;
-        }
-        .Langages img {
-            height: 11vw;
-        }
-        .outils img {
-            height: 7vw;
         }
     }
