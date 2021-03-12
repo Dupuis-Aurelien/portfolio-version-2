@@ -132,7 +132,7 @@
     }
     
     #menuInitial li a {
-        font-size: 135%;
+        font-size: 125%;
     }
     
     li a:hover {
@@ -165,7 +165,7 @@
     .Logo {
         vertical-align: middle;
         margin-bottom: 2%;
-        height: 50px;
+        height: 60px;
         width: auto;
     }
     /****** Menu de droite fixed **********/
@@ -385,13 +385,13 @@
     /************************HEADER_IMAGE**********************/
     
     header .photo_de_moi {
-        margin-top: 25%;
+        margin-top: 7%;
     }
     /* Ombre Montdidier */
     
     header .Montdidier {
         height: auto;
-        width: 15vw;
+        width: 10vw;
         top: 0px;
         right: 0px;
         z-index: -40;
@@ -412,7 +412,7 @@
     
     header .Moi {
         height: auto;
-        width: 15vw;
+        width: 10vw;
         margin-bottom: 0.2%;
         margin-left: -3%;
         margin-right: -3%;
@@ -432,7 +432,7 @@
     
     header .Fréjus {
         height: auto;
-        width: 15vw;
+        width: 10vw;
         top: 0px;
         right: 0px;
         z-index: -13;
@@ -452,7 +452,7 @@
     /***********************HEADER_Métier*********************/
     
     header .Métier {
-        width: 55%;
+        width: 35%;
         height: auto;
         background-color: var(--main-color);
         margin: auto;
@@ -469,11 +469,14 @@
         padding-bottom: 10px;
         z-index: 330;
         position: relative;
+        margin-bottom: 0;
     }
     /*********************QUI_suis-je ?**********************/
     
     #présentation {
         color: var(--main-color);
+        margin: auto;
+        width: 80%;
     }
     /*** Titre ***/
     /**** block qui ***/

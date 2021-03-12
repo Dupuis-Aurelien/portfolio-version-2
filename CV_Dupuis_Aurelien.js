@@ -29,30 +29,21 @@ window.addEventListener("scroll", function() {
 /* Changement théme couleurs */
 
 /* Vert */
-
-const btn1 = document.querySelector('.theme-vert')
-
-btn1.addEventListener('click', () => {
+document.querySelector('.theme-vert').addEventListener('click', () => {
 
     document.documentElement.style.setProperty('--main-color', '#023618');
     document.documentElement.style.setProperty('--shade-color', '#9aec7f');
 })
 
 /* Bleu */
-
-const btn2 = document.querySelector('.theme-bleu')
-
-btn2.addEventListener('click', () => {
+document.querySelector('.theme-bleu').addEventListener('click', () => {
 
     document.documentElement.style.setProperty('--main-color', '#222f51');
     document.documentElement.style.setProperty('--shade-color', '#03BFCB');
 })
 
 /* Rouge */
-
-const btn3 = document.querySelector('.theme-rouge')
-
-btn3.addEventListener('click', () => {
+document.querySelector('.theme-rouge').addEventListener('click', () => {
 
     document.documentElement.style.setProperty('--main-color', '#4c0808');
     document.documentElement.style.setProperty('--shade-color', '#ff6b60');

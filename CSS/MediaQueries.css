@@ -24,6 +24,9 @@
     /* <1500 */
     
     @media screen and (max-width: 1500px) {
+        header .photo_de_moi {
+            margin-top: 15%;
+        }
         .TéléchargerHeader,
         .TelHeader,
         .MailHeader,
@@ -145,7 +148,7 @@
         }
         header .Métier {
             margin-top: -3%;
-            width: 70%;
+            width: 55%;
         }
         footer {
             padding: 1% 0.8% 0%;
@@ -278,7 +281,7 @@
         }
         header .Métier {
             margin-top: -3.3%;
-            width: 85%;
+            width: 65%;
         }
         #auto_text {
             font-size: 150%;
@@ -352,6 +355,9 @@
         }
         #auto_text {
             font-size: 130%;
+        }
+        #présentation {
+            width: 95%;
         }
         .qui {
             flex-direction: column;
