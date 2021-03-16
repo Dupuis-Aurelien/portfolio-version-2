@@ -763,6 +763,10 @@
         color: var(--shade-color);
     }
     
+    .card-container a {
+        display: inline-block;
+    }
+    
     .card-container .texte1,
     .card-container .texte2 {
         height: 100px;
@@ -771,10 +775,14 @@
     .card-container h4 {
         margin: 15px 0;
         text-decoration: underline;
+        text-align: left;
+        padding-left: 20px;
     }
     
     .card-container p {
-        padding: 5px;
+        padding-left: 20px;
+        padding-right: 10px;
+        text-align: left;
     }
     
     .skills {
