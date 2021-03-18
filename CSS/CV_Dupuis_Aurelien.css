@@ -651,6 +651,11 @@
         flex-direction: row;
     }
     
+    .colone1,
+    .colone4 {
+        line-height: 120%;
+    }
+    
     .colone1et2,
     .colone3et4 {
         display: flex;
@@ -661,12 +666,10 @@
     
     .colone2 {
         margin-left: 5%;
-        line-height: 150%;
     }
     
     .colone4 {
         margin-left: 5%;
-        line-height: 150%;
         margin-right: 2vw;
     }
     /* Modal Footer */

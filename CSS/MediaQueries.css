@@ -469,6 +469,9 @@
         .qualités {
             width: 100%;
         }
+        .colone3 {
+            line-height: 150%;
+        }
         .raisons p {
             font-size: 50%;
         }
@@ -521,6 +524,12 @@
         }
         .DroiteRaisons {
             width: 85%;
+        }
+        .colone3 {
+            line-height: 200%;
+        }
+        .colone4 {
+            line-height: 150%;
         }
         .raisons p {
             font-size: 40%;
