@@ -1,7 +1,7 @@
 body {
     line-height: 170%;
     font-size: 120%;
-    background-image: url(../image/Judo/fond.jpg) !important;
+    background-image: url(../images/Judo/fond.jpg) !important;
     height: 400%;
 }
 
@@ -273,7 +273,7 @@ header a {
 }
 
 #La-création .arbre {
-    background-image: url(../image/Judo/arbreneige.gif);
+    background-image: url(../images/Judo/arbreneige.gif);
     background-repeat: no-repeat;
     background-size: cover;
     width: 600px;
@@ -646,17 +646,17 @@ header a {
 /*------------------------------font----------------*/
 
 .card .front {
-    background-image: url("../image/Judo/moimini2.jpg");
+    background-image: url("../images/Judo/moimini2.jpg");
     transform: rotateY(0deg);
 }
 
 .card .front1 {
-    background-image: url("../image/Judo/moimoyen.jpg");
+    background-image: url("../images/Judo/moimoyen.jpg");
     transform: rotateY(0deg);
 }
 
 .card .front2 {
-    background-image: url("../image/Judo/moigrand.jpg");
+    background-image: url("../images/Judo/moigrand.jpg");
     transform: rotateY(0deg);
 }
 
@@ -704,7 +704,7 @@ header a {
 footer {
     margin-top: 4%;
     height: 200px;
-    background-image: url(../image/Judo/judofin4.jpg);
+    background-image: url(../images/Judo/judofin4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 70px;
